@@ -8,7 +8,7 @@ require 'capybara/version'
 Gem::Specification.new do |s|
   s.name = 'capybara'
   s.version = Capybara::VERSION
-  s.required_ruby_version = '>= 2.4.0'
+  s.required_ruby_version = '>= 2.3.0'
   s.license = 'MIT'
 
   s.authors = ['Thomas Walpole', 'Jonas Nicklas']
@@ -29,9 +29,9 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency('addressable')
   s.add_runtime_dependency('mini_mime', ['>= 0.1.3'])
-  s.add_runtime_dependency('nokogiri', ['~> 1.8'])
-  s.add_runtime_dependency('rack', ['>= 1.6.0'])
-  s.add_runtime_dependency('rack-test', ['>= 0.6.3'])
+  s.add_runtime_dependency("nokogiri", [">= 1.3.3"])
+  s.add_runtime_dependency("rack", [">= 1.0.0"])
+  s.add_runtime_dependency("rack-test", [">= 0.5.4"])
   s.add_runtime_dependency('regexp_parser', ['~>1.5'])
   s.add_runtime_dependency('xpath', ['~>3.2'])
 
